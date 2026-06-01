@@ -1,0 +1,704 @@
+[
+  {
+    "slug": "agent-memory-system",
+    "title": "AI Agent 多层记忆系统设计详解",
+    "date": "2026-05-21",
+    "category": "技术",
+    "excerpt": "记忆系统是 AI Agent 实现持续学习和个性化交互的关键。",
+    "tags": [
+      "AI",
+      "Agent",
+      "Memory",
+      "SQLite",
+      "架构"
+    ],
+    "lang": "zh"
+  },
+  {
+    "slug": "ai-agent-architecture",
+    "title": "AI Agent 架构设计",
+    "date": "",
+    "category": "",
+    "excerpt": "",
+    "tags": [],
+    "lang": "zh"
+  },
+  {
+    "slug": "aureon-system-optimization-journey",
+    "title": "Aureon 系统优化实战：从硬编码到动态数据的完整旅程",
+    "date": "2026-05-31",
+    "category": "技术",
+    "excerpt": "记录 Aureon 企业 AI 知识库平台从硬编码数据到全动态化的完整优化过程，包括 Analytics 修复、博客同步、i18n 问题解决等实战经验。",
+    "tags": [
+      "RAG",
+      "Analytics",
+      "React",
+      "FastAPI",
+      "Redis",
+      "Railway",
+      "系统优化"
+    ],
+    "lang": "zh"
+  },
+  {
+    "slug": "aureon-system-optimization-journey",
+    "title": "Aureon System Optimization: From Hardcoded Data to a Fully Dynamic Pipeline",
+    "date": "2026-05-31",
+    "category": "Technology",
+    "excerpt": "A complete walkthrough of optimizing the Aureon enterprise AI knowledge base platform -- from hardcoded data to fully dynamic, including Analytics fixes, blog sync, and i18n troubleshooting.",
+    "tags": [
+      "RAG",
+      "Analytics",
+      "React",
+      "FastAPI",
+      "Redis",
+      "Railway",
+      "System Optimization"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "chatbot-railway-deployment",
+    "title": "AI Chatbot 部署 Railway 全记录 — Docker + FastAPI + Chroma 持久化",
+    "date": "2026-05-24",
+    "category": "技术",
+    "excerpt": "把一个 React 19 + FastAPI + LangChain + Chroma RAG 的 AI Agent 项目部署到 Railway 云平台，涉及 Docker 多阶段构建、SSE 流式传输、持久化向量存储、白屏 Bug 排查。本文记录完整过程与关键决策。",
+    "tags": [
+      "技术",
+      "Railway",
+      "Docker",
+      "FastAPI",
+      "AI",
+      "部署"
+    ],
+    "lang": "zh"
+  },
+  {
+    "slug": "chatbot-railway-deployment",
+    "title": "AI Chatbot Deployment on Railway — Docker + FastAPI + Chroma Persistence",
+    "date": "2026-05-24",
+    "category": "Technology",
+    "excerpt": "Deploying a React 19 + FastAPI + LangChain + Chroma RAG AI Agent project on Railway, covering multi-stage Docker builds, SSE streaming, persistent vector storage, and white screen debugging.",
+    "tags": [
+      "Technology",
+      "Railway",
+      "Docker",
+      "FastAPI",
+      "AI",
+      "Deployment"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "deepseek-cache-optimization",
+    "title": "LLM 缓存优化实战：把 DeepSeek 代理缓存率从 56% 提升到 76%",
+    "date": "2026-05-23",
+    "category": "技术",
+    "excerpt": "给 Codex 写 DeepSeek 代理时发现缓存率不到 50%，远低于 Claude 的 96%。通过五轮搜索、分析和修复，最终把缓存率提升到 76%，session 内稳定期达到 95-99%。这篇文章记录了完整的技术调查过程。",
+    "tags": [
+      "DeepSeek",
+      "LLM",
+      "代理",
+      "缓存",
+      "优化",
+      "性能",
+      "Codex"
+    ],
+    "lang": "zh"
+  },
+  {
+    "slug": "deepseek-cache-optimization",
+    "title": "LLM Cache Optimization: Boosting DeepSeek Proxy Cache Rate from 56% to 76%",
+    "date": "2026-05-23",
+    "category": "Technology",
+    "excerpt": "While building a DeepSeek proxy for Codex, I found the cache rate was under 50% — far below Claude's 96%. After five rounds of investigation and fixes, the cache rate reached 76%, with session steady-state hitting 95-99%. This article documents the full technical journey.",
+    "tags": [
+      "DeepSeek",
+      "LLM",
+      "Proxy",
+      "Cache",
+      "Optimization",
+      "Performance",
+      "Codex"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "agent-memory-system",
+    "title": "Designing a Multi-Layer Memory System for AI Agents",
+    "date": "2026-05-21",
+    "category": "Technology",
+    "excerpt": "Memory systems are the key to enabling continuous learning and personalized interactions in AI Agents.",
+    "tags": [
+      "AI",
+      "Agent",
+      "Memory",
+      "SQLite",
+      "Architecture"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "langchain-agent-intro",
+    "title": "Getting Started with LangChain Agents",
+    "date": "2026-05-20",
+    "category": "Technology",
+    "excerpt": "LangChain Agent is the foundational framework for building AI tool-calling capabilities.",
+    "tags": [
+      "AI",
+      "LangChain",
+      "Agent",
+      "Tutorial"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "langgraph-workflow",
+    "title": "Building State Graph Workflows with LangGraph",
+    "date": "2026-05-20",
+    "category": "Technology",
+    "excerpt": "LangGraph is a powerful tool for building complex AI workflows.",
+    "tags": [
+      "AI",
+      "LangGraph",
+      "Workflow",
+      "StateGraph"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "eleven-projects-two-months",
+    "title": "十一个项目，两个月，一个开发者的自白",
+    "date": "2026-05-17",
+    "category": "随笔",
+    "excerpt": "两个月时间，从番茄钟到 AI 聊天机器人，从天气查询到在线商城，完成了 11 个项目。这篇不是技术教程，是作为开发者在这段旅程中的真实感受和反思。",
+    "tags": [
+      "总结",
+      "成长",
+      "全栈",
+      "反思"
+    ],
+    "lang": "zh"
+  },
+  {
+    "slug": "blog-migration-troubleshooting",
+    "title": "博客搬家记 — 从 Git 报错到 Vercel 部署的全栈踩坑",
+    "date": "2026-05-16",
+    "category": "技术",
+    "excerpt": "一次代码清理引发的连锁灾难——13 个文件被 Git 报错信息覆盖、GitHub Pages 白屏、Vercel 反复部署失败。这篇文章记录了从排查到修复的完整过程。",
+    "tags": [
+      "Vercel",
+      "部署",
+      "Git",
+      "前端",
+      "踩坑"
+    ],
+    "lang": "zh"
+  },
+  {
+    "slug": "ai-writing-assistant",
+    "title": "从零构建 AI 写作助手：流式输出与历史记录",
+    "date": "2026-05-09",
+    "category": "技术",
+    "excerpt": "分享 AI 写作助手和 AI Chatbot 两个项目的开发经验，重点介绍流式输出 SSE 和 Prompt 工程。",
+    "tags": [
+      "AI",
+      "React",
+      "流式输出",
+      "前端"
+    ],
+    "lang": "zh"
+  },
+  {
+    "slug": "embedding-models-guide",
+    "title": "Embedding 模型选型指南",
+    "date": "",
+    "category": "",
+    "excerpt": "",
+    "tags": [],
+    "lang": "zh"
+  },
+  {
+    "slug": "ai-agent-architecture",
+    "title": "AI Agent Architecture Design",
+    "date": "",
+    "category": "",
+    "excerpt": "",
+    "tags": [],
+    "lang": "en"
+  },
+  {
+    "slug": "railway-deploy-failure-rollback-lesson",
+    "title": "Railway Deploy Fiasco: Lessons After 14 Failures",
+    "date": "2026-06-01",
+    "category": "Technology",
+    "excerpt": "14 Railway deployments, all FAILED -- from BuildKit cache mounts to CRLF line endings, every \"fix\" introduced a new problem. The final solution: roll back to the last working version and recover production in 5 minutes.",
+    "tags": [
+      "Railway",
+      "Docker",
+      "Deployment",
+      "Debugging",
+      "DevOps"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "rag-system-guide",
+    "title": "Building a RAG System: A Complete Guide",
+    "date": "2026-05-21",
+    "category": "Technology",
+    "excerpt": "RAG is the core architecture for building domain-specific knowledge Q&A systems.",
+    "tags": [
+      "AI",
+      "RAG",
+      "ChromaDB",
+      "Embedding",
+      "Knowledge Base"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "langchain-agent-intro",
+    "title": "LangChain Agent 从零入门",
+    "date": "2026-05-20",
+    "category": "技术",
+    "excerpt": "LangChain Agent 是构建 AI 工具调用能力的基础框架。",
+    "tags": [
+      "AI",
+      "LangChain",
+      "Agent",
+      "教程"
+    ],
+    "lang": "zh"
+  },
+  {
+    "slug": "langgraph-workflow",
+    "title": "LangGraph 状态图工作流设计实战",
+    "date": "2026-05-20",
+    "category": "技术",
+    "excerpt": "LangGraph 是构建复杂 AI 工作流的利器。",
+    "tags": [
+      "AI",
+      "LangGraph",
+      "Workflow",
+      "StateGraph"
+    ],
+    "lang": "zh"
+  },
+  {
+    "slug": "eleven-projects-two-months",
+    "title": "Eleven Projects, Two Months: A Developer's Reflection",
+    "date": "2026-05-17",
+    "category": "Life",
+    "excerpt": "Two months, from Pomodoro timer to AI chatbot, from weather app to online store — 11 projects completed. This isn't a technical tutorial, but a developer's honest reflection on the journey.",
+    "tags": [
+      "Reflection",
+      "Growth",
+      "Full Stack",
+      "Lessons"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "blog-migration-troubleshooting",
+    "title": "Blog Migration Saga — From Git Errors to Vercel Deployment",
+    "date": "2026-05-16",
+    "category": "Technology",
+    "excerpt": "A code cleanup triggered a chain of disasters — 13 files overwritten with Git error messages, GitHub Pages blank screen, Vercel deployment failures. This post documents the full investigation and recovery process.",
+    "tags": [
+      "Vercel",
+      "Deployment",
+      "Git",
+      "Frontend",
+      "Troubleshooting"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "ai-writing-assistant",
+    "title": "Building an AI Writing Assistant from Scratch: Streaming Output & History",
+    "date": "2026-05-09",
+    "category": "Technology",
+    "excerpt": "Sharing development experience from two AI projects — AI Writing Assistant and AI Chatbot — focusing on SSE streaming output and Prompt Engineering.",
+    "tags": [
+      "AI",
+      "React",
+      "Streaming",
+      "Frontend"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "embedding-models-guide",
+    "title": "A Practical Guide to Choosing Embedding Models",
+    "date": "",
+    "category": "",
+    "excerpt": "",
+    "tags": [],
+    "lang": "en"
+  },
+  {
+    "slug": "hermes-agent-practical-guide",
+    "title": "Hermes Agent in Practice — Layered Memory System & Skill Ecosystem Integration",
+    "date": "2026-05-15",
+    "category": "Technology",
+    "excerpt": "Deep dive into Hermes Agent's layered memory system, three core skill integrations, and a complete practical guide to building an AI Agent workflow from scratch.",
+    "tags": [
+      "AI",
+      "Hermes Agent",
+      "Open Source",
+      "Hands-on"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "spa-github-pages",
+    "title": "SPA Deployment on GitHub Pages — From 404 to Blank Screen to Route 404",
+    "date": "2026-05-15",
+    "category": "Technology",
+    "excerpt": "Deploying a React SPA to GitHub Pages — you think it's just running build? I had to fix 7 issues before the page rendered correctly. This post documents the full troubleshooting path.",
+    "tags": [
+      "Technology",
+      "GitHub Pages",
+      "SPA",
+      "Frontend"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "hermes-agent-practical-guide",
+    "title": "Hermes Agent 实战 — 分层记忆系统与技能生态整合",
+    "date": "2026-05-15",
+    "category": "技术",
+    "excerpt": "深入探索 Hermes Agent 的分层记忆系统、三大核心技能集成，以及从零搭建 AI Agent 工作流的完整实践记录。",
+    "tags": [
+      "AI",
+      "Hermes Agent",
+      "开源",
+      "实战"
+    ],
+    "lang": "zh"
+  },
+  {
+    "slug": "hello-world",
+    "title": "Hello World — My Blog is Live",
+    "date": "2026-05-10",
+    "category": "Life",
+    "excerpt": "The first post of my personal blog, documenting the journey of building it from scratch.",
+    "tags": [
+      "Life",
+      "Blog"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "git-workflow-best-practices",
+    "title": "Git Workflow Best Practices",
+    "date": "2026-05-08",
+    "category": "Technology",
+    "excerpt": "Common Git workflow patterns for team collaboration, commit conventions, and branch management best practices.",
+    "tags": [
+      "Git",
+      "Tools",
+      "Workflow"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "langchain-framework-guide",
+    "title": "LangChain Framework Guide",
+    "date": "",
+    "category": "",
+    "excerpt": "",
+    "tags": [],
+    "lang": "en"
+  },
+  {
+    "slug": "llamaindex-rag-guide",
+    "title": "LlamaIndex RAG Development Guide",
+    "date": "",
+    "category": "",
+    "excerpt": "",
+    "tags": [],
+    "lang": "en"
+  },
+  {
+    "slug": "railway-deploy-failure-rollback-lesson",
+    "title": "Railway 部署翻车实录：14 次失败后的回退教训",
+    "date": "2026-06-01",
+    "category": "技术",
+    "excerpt": "14 次 Railway 部署全部 FAILED，从 BuildKit cache mount 到 CRLF 换行符，每一次\"修复\"都引入新问题。最终方案：回退到上次成功版本，5 分钟恢复生产。",
+    "tags": [
+      "Railway",
+      "Docker",
+      "部署",
+      "踩坑",
+      "DevOps"
+    ],
+    "lang": "zh"
+  },
+  {
+    "slug": "rag-system-guide",
+    "title": "RAG 检索增强生成系统搭建指南",
+    "date": "2026-05-21",
+    "category": "技术",
+    "excerpt": "RAG 是构建领域知识问答系统的核心架构。",
+    "tags": [
+      "AI",
+      "RAG",
+      "ChromaDB",
+      "Embedding",
+      "知识库"
+    ],
+    "lang": "zh"
+  },
+  {
+    "slug": "spa-github-pages",
+    "title": "SPA 部署 GitHub Pages 踩坑实录 — 从 404 到白屏再到路由 404",
+    "date": "2026-05-15",
+    "category": "技术",
+    "excerpt": "把 React SPA 部署到 GitHub Pages，你以为跑一下 build 就行？我前后修了 7 个问题才让页面正常渲染。这篇文章记录了完整的踩坑路径和修复方案。",
+    "tags": [
+      "技术",
+      "GitHub Pages",
+      "SPA",
+      "前端"
+    ],
+    "lang": "zh"
+  },
+  {
+    "slug": "wechat-miniprogram-ai-agent",
+    "title": "WeChat Mini Program + AI Agent: Battery Sales Assistant Pitfalls",
+    "date": "2026-05-11",
+    "category": "Technology",
+    "excerpt": "Building an AI sales assistant with WeChat Mini Program + Tencent CloudBase + Hunyuan LLM, documenting the pitfalls and solutions encountered.",
+    "tags": [
+      "WeChat Mini Program",
+      "AI",
+      "CloudBase",
+      "Frontend"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "wechat-miniprogram-ai-agent",
+    "title": "微信小程序 + AI Agent 实战：电池销售助手的踩坑记录",
+    "date": "2026-05-11",
+    "category": "技术",
+    "excerpt": "用微信小程序 + 腾讯云开发 CloudBase + 混元大模型做了一个 AI 销售助手，记录开发中遇到的坑和解决方案。",
+    "tags": [
+      "微信小程序",
+      "AI",
+      "CloudBase",
+      "前端"
+    ],
+    "lang": "zh"
+  },
+  {
+    "slug": "zustand-todo-app",
+    "title": "React + Zustand: Building a Todo App with Modern State Management",
+    "date": "2026-05-10",
+    "category": "Technology",
+    "excerpt": "Using Zustand as a Redux alternative for React state management, sharing practical insights from my Todo Manager project.",
+    "tags": [
+      "React",
+      "Zustand",
+      "State Management",
+      "TypeScript"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "hello-world",
+    "title": "Hello World — 我的博客开张了",
+    "date": "2026-05-10",
+    "category": "随笔",
+    "excerpt": "这是我的个人博客的第一篇文章，记录一下搭建博客的心路历程。",
+    "tags": [
+      "生活",
+      "博客"
+    ],
+    "lang": "zh"
+  },
+  {
+    "slug": "zustand-todo-app",
+    "title": "React + Zustand 构建 Todo 应用的状态管理实践",
+    "date": "2026-05-10",
+    "category": "技术",
+    "excerpt": "使用 Zustand 替代 Redux 进行 React 状态管理，从我的 Todo Manager 项目总结一些实践经验。",
+    "tags": [
+      "React",
+      "Zustand",
+      "状态管理",
+      "TypeScript"
+    ],
+    "lang": "zh"
+  },
+  {
+    "slug": "react-performance-tips",
+    "title": "React Performance Optimization Tips",
+    "date": "2026-05-09",
+    "category": "Technology",
+    "excerpt": "Practical tips for optimizing React app performance, including proper use of memo, useMemo, and useCallback.",
+    "tags": [
+      "React",
+      "Frontend",
+      "Performance"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "weather-app-api-integration",
+    "title": "Weather App API Integration & Geolocation Development",
+    "date": "2026-05-08",
+    "category": "Technology",
+    "excerpt": "Lessons learned from building a weather inquiry project — third-party API integration, geolocation, and multi-city comparison features.",
+    "tags": [
+      "React",
+      "API",
+      "Geolocation",
+      "TypeScript"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "git-workflow-best-practices",
+    "title": "Git 工作流最佳实践",
+    "date": "2026-05-08",
+    "category": "技术",
+    "excerpt": "团队协作中常用的 Git 工作流模式，以及 commit 规范、分支管理的最佳实践。",
+    "tags": [
+      "Git",
+      "工具",
+      "工作流"
+    ],
+    "lang": "zh"
+  },
+  {
+    "slug": "markdown-notes-app",
+    "title": "Markdown Notes App: From Editor to Live Preview",
+    "date": "2026-05-07",
+    "category": "Technology",
+    "excerpt": "Architecture design insights from building a Markdown notes application, including three-column layout, debounced saving, and live preview implementation.",
+    "tags": [
+      "React",
+      "Markdown",
+      "TypeScript",
+      "Tools"
+    ],
+    "lang": "en"
+  },
+  {
+    "slug": "prompt-engineering-guide",
+    "title": "Prompt Engineering: A Practical Guide",
+    "date": "",
+    "category": "",
+    "excerpt": "",
+    "tags": [],
+    "lang": "en"
+  },
+  {
+    "slug": "rag-concepts-deep-dive",
+    "title": "RAG Core Concepts Deep Dive",
+    "date": "",
+    "category": "",
+    "excerpt": "",
+    "tags": [],
+    "lang": "en"
+  },
+  {
+    "slug": "vector-database-guide",
+    "title": "The Complete Guide to Vector Databases",
+    "date": "",
+    "category": "",
+    "excerpt": "",
+    "tags": [],
+    "lang": "en"
+  },
+  {
+    "slug": "langchain-framework-guide",
+    "title": "LangChain 框架指南",
+    "date": "",
+    "category": "",
+    "excerpt": "",
+    "tags": [],
+    "lang": "zh"
+  },
+  {
+    "slug": "llamaindex-rag-guide",
+    "title": "LlamaIndex RAG 开发指南",
+    "date": "",
+    "category": "",
+    "excerpt": "",
+    "tags": [],
+    "lang": "zh"
+  },
+  {
+    "slug": "react-performance-tips",
+    "title": "React 性能优化实战技巧",
+    "date": "2026-05-09",
+    "category": "技术",
+    "excerpt": "分享 React 应用性能优化的常用技巧，包括 memo、useMemo、useCallback 的正确使用方式。",
+    "tags": [
+      "React",
+      "前端",
+      "性能优化"
+    ],
+    "lang": "zh"
+  },
+  {
+    "slug": "markdown-notes-app",
+    "title": "Markdown 笔记应用：从编辑器到实时预览",
+    "date": "2026-05-07",
+    "category": "技术",
+    "excerpt": "开发 Markdown 笔记应用的架构设计分享，包括三栏布局、防抖保存和实时预览的实现。",
+    "tags": [
+      "React",
+      "Markdown",
+      "TypeScript",
+      "工具"
+    ],
+    "lang": "zh"
+  },
+  {
+    "slug": "prompt-engineering-guide",
+    "title": "Prompt Engineering 实战指南",
+    "date": "",
+    "category": "",
+    "excerpt": "",
+    "tags": [],
+    "lang": "zh"
+  },
+  {
+    "slug": "rag-concepts-deep-dive",
+    "title": "RAG 核心概念深度解析",
+    "date": "",
+    "category": "",
+    "excerpt": "",
+    "tags": [],
+    "lang": "zh"
+  },
+  {
+    "slug": "vector-database-guide",
+    "title": "向量数据库完全指南",
+    "date": "",
+    "category": "",
+    "excerpt": "",
+    "tags": [],
+    "lang": "zh"
+  },
+  {
+    "slug": "weather-app-api-integration",
+    "title": "天气查询应用的 API 集成与定位开发实战",
+    "date": "2026-05-08",
+    "category": "技术",
+    "excerpt": "从我的天气查询项目总结第三方 API 集成、地理定位和多城市对比功能的实现经验。",
+    "tags": [
+      "React",
+      "API",
+      "地理定位",
+      "TypeScript"
+    ],
+    "lang": "zh"
+  }
+]

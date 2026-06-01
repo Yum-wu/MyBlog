@@ -1,0 +1,7 @@
+chore: 清理仓库，移除非 myblog 项目
+
+删除: AIImageGenerator, AIWritingAssistant, Chatbot, MarkdownNotes,
+MyBlog, OnlineStore, PomodoroTimer, VoiceRecognition, WeatherInquiry,
+chatbot-temp, todo-app, AGENTS.md, .trae, .vscode
+
+新增: README 折叠语言切换 (English/中文)
