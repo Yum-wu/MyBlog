@@ -10,13 +10,14 @@ import { formatSmartTime } from "../utils/formatDate";
 import { useTranslation } from "../i18n/useTranslation";
 
 /* ===== 语法高亮 — 按需动态加载（只注册 10 种语言，~200KB vs 原 1725KB） ===== */
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-let highlighterModule: any = null;
+import type { ComponentType } from "react";
+
+let Highlighter: ComponentType<{ language: string; children: string; style: Record<string, React.CSSProperties> }> | null = null;
 let highlighterStyle: Record<string, React.CSSProperties> | null = null;
 
 /** 只注册博客实际用到的语言 */
 async function loadHighlighter() {
-  if (highlighterModule) return;
+  if (Highlighter) return;
 
   const [lightMod, styleMod] = await Promise.all([
     import("react-syntax-highlighter/dist/esm/light"),
@@ -42,15 +43,15 @@ async function loadHighlighter() {
     Prism.registerLanguage(mod.default.name, mod.default);
   }
 
-  highlighterModule = Prism;
+  Highlighter = Prism as unknown as typeof Highlighter;
   highlighterStyle = styleMod.oneDark;
 }
 
 function CodeBlock({ language, code }: { language: string; code: string }) {
-  const [ready, setReady] = useState(highlighterModule !== null);
+  const [ready, setReady] = useState(Highlighter !== null);
 
   useEffect(() => {
-    if (highlighterModule) return;
+    if (Highlighter) return;
     let cancelled = false;
     loadHighlighter().then(() => {
       if (!cancelled) setReady(true);
@@ -58,7 +59,7 @@ function CodeBlock({ language, code }: { language: string; code: string }) {
     return () => { cancelled = true; };
   }, []);
 
-  if (!ready || !highlighterModule || !highlighterStyle) {
+  if (!ready || !Highlighter || !highlighterStyle) {
     return (
       <pre className="overflow-x-auto rounded-lg bg-neutral-900 p-4 text-sm text-neutral-200">
         <code>{code}</code>
@@ -67,9 +68,9 @@ function CodeBlock({ language, code }: { language: string; code: string }) {
   }
 
   return (
-    <highlighterModule language={language || "text"} style={highlighterStyle}>
+    <Highlighter language={language || "text"} style={highlighterStyle}>
       {code}
-    </highlighterModule>
+    </Highlighter>
   );
 }
 
